@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpg" href="5968292.png">
+  <title>Number Guess</title>
+  <link rel="stylesheet" href="learning.css">
+</head>
+<body>
+  <h1>Number Guessing game</h1>
+<h2>Pick a number between 1-100</h2>
+<input type="text" id="userInputNum"><br><br>
+<button type="button" id="submit" onclick="guessing()" >Submit</button>
+<p id="hint"></p>
+<p id="demo"></p>
+
+  <h1>Temp change :]</h1>
+  <input type="text" id="userInputTemp"><br><br>
+  <input type="radio" name="tempConvert" id="cel2Far">
+  <label>Celcius to Fahrenheit</label><br>
+  <input type="radio" name="tempConvert" id="far2Cel">
+  <label>Fahrenheit to Celcius</label><br><br>
+  <button type="button" onclick="convert()">Convert</button>
+  <p id="tempAnsw"></p>
+
+  <h1>Callback Test: Addition</h1>
+  <h2>Pick 2 numbers to add together</h2>
+  <label>Number 1</label><br>
+  <input type="text" id="callbackIn1"><br><br>
+  <label>Number 2</label><br>
+  <input type="text" id="callbackIn2"><br><br>
+  <button type="callbackEnter" onclick="executeCall()">Calculate</button>
+  <p id="callbackAnsw"></p>
+
+
+
+  <script src="learning.js"></script>
+</body>
+</html>
